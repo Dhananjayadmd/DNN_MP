@@ -23,7 +23,7 @@ Algorithmic Optimizations
           - FFT
                - Convert conv O(N0^2 Nf^2) -> O(N0^2 logN0) - reduce computation but requires much more mem space and bandwidth  
                
-           - cuDNN
+          - cuDNN
            
 Solve Memory access bottlenecks
 
