@@ -9,6 +9,21 @@ DNN on Mobile Platforms - Good Reads
 
 Lecture Slides: [Hardware architectures for DNN](http://www.rle.mit.edu/eems/wp-content/uploads/2017/03/Tutorial-on-DNN-CICS-MTL.pdf)
 
+Algorithmic Optimizations 
+     - Kernel Computation - Convert convolutional operation to multiplication
+     - Computational Transforms 
+           - Reducing Multiplications
+                - Gauss's multiplication algorithm
+                - Strassen
+                - Winograd 1D  - 36 multi> 16 multi
+          - FFT
+               - Convert conv O(N0^2 Nf^2) -> O(N0^2 logN0) - reduce computation but requires much more mem space and bandwidth  
+           - cuDNN
+           
+Solve Memory access bottlenecks
+     - Data reuse
+          - Convolutional reuse, Fmap reuse, filter reuse
+     - Local Accumulation
 
 
 ### CNN on embedded FPGAs
