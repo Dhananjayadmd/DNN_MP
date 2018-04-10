@@ -9,6 +9,9 @@ DNN on Mobile Platforms - Good Reads
 
 Lecture Slides: [Hardware architectures for DNN](http://www.rle.mit.edu/eems/wp-content/uploads/2017/03/Tutorial-on-DNN-CICS-MTL.pdf)
 
+Opportunities for innovation
+
+
 Algorithmic Optimizations 
 
      - Kernel Computation - Convert convolutional operation to multiplication
@@ -32,7 +35,18 @@ Solve Memory access bottlenecks
           
      - Local Accumulation
 
+DNN Model and hardware co-design
 
+     - Reduce size of operands for storage/ compute
+          - Floating point -> Fixed point
+          - Bit width reduction
+          - Non-linear quantization
+          
+     - Reduce Number of operations for storage/ compute
+          - Exploit activation statistics (Compression)
+          - Network pruning
+          - Compact network architectures - break large convolution layers into series of small convolutional layers
+          
 ### CNN on embedded FPGAs
 
 1. [Angel-Eye: A Complete Design Flow for Mapping CNN onto Customized Hardware] [ISVLSI '16]
