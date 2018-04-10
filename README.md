@@ -7,6 +7,8 @@ DNN on Mobile Platforms - Good Reads
 
 1. [Efficient Processing of Deep Neural Networks:A Tutorial and Survey](https://arxiv.org/pdf/1703.09039.pdf) [arXiv '17]
 
+Lecture Slides: [Hardware architectures for DNN](http://www.rle.mit.edu/eems/wp-content/uploads/2017/03/Tutorial-on-DNN-CICS-MTL.pdf)
+
 
 
 ### CNN on embedded FPGAs
