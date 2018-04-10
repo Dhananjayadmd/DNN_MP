@@ -18,7 +18,7 @@ Algorithmic Optimizations
      
      - Computational Transforms 
      
-           - Reducing Multiplications
+          - Reducing Multiplications
                 - Gauss's multiplication algorithm
                 - Strassen
                 - Winograd 1D  - 36 multi> 16 multi
