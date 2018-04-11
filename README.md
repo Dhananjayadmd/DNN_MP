@@ -57,3 +57,23 @@ DNN Model and hardware co-design
 
 
 3. [Going Deeper with Embedded FPGA Platform for Convolutional Neural Network](http://cadlab.cs.ucla.edu/~jaywang/papers/fpga16-cnn.pdf) [FPGA '16]
+
+### What's the best combination? CPU + FPGA GPU ASIC?
+
+1. Can FPGAs Beat GPUs in Accelerating Next-Generation Deep Learning?[News Article](https://www.nextplatform.com/2017/03/21/can-fpgas-beat-gpus-accelerating-next-generation-deep-learning/) [Paper published in ACM Digital Library, February 2017](http://delivery.acm.org/10.1145/3030000/3021740/p5-nurvitadhi.pdf?ip=137.132.228.29&id=3021740&acc=ACTIVE%20SERVICE&key=FF6731C4D3E3CFFF%2EBB5EB8D2067C1662%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1523429071_8c3a5ebf30881b77de608f9f9131c1a9)  
+
+FPGA 
+
+
+     - Superior power efficiency
+     - Customizability
+         - DNN go deeper -> improved accuracy -> increase comp/mem bw/storage	
+         - compact low precision data types  32>16>8>ter>binary
+         - Introduce sparsity(the presence of zeros) > using pruning/ReLU
+         - Low precision + sparsity > introduce irregular parallelism > difficult for GPU > can exploit extreme customizability of FPGAs
+
+     - Bad floating-point performance – solution DSP and compact low precision data types
+
+  “The current ML problems using 32-bit dense matrix multiplication is where GPUs excel. We encourage other developers and researchers to join forces with us to reformulate machine learning problems to take advantage of the strength of FPGAs using smaller bit processing because FPGAs can adapt to shifts toward lower precision,” 
+
+
