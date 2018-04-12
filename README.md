@@ -66,7 +66,7 @@ DNN Model and hardware co-design
 
 3. [Going Deeper with Embedded FPGA Platform for Convolutional Neural Network](http://cadlab.cs.ucla.edu/~jaywang/papers/fpga16-cnn.pdf) [FPGA '16]
 
-### What's the best combination? CPU + FPGA GPU ASIC?
+### What's the best combination? CPU + FPGA/ GPU/ CGRA/ ASIC?
 
 1. Can FPGAs Beat GPUs in Accelerating Next-Generation Deep Learning?[News Article](https://www.nextplatform.com/2017/03/21/can-fpgas-beat-gpus-accelerating-next-generation-deep-learning/) [Paper published in ACM Digital Library, February 2017](http://delivery.acm.org/10.1145/3030000/3021740/p5-nurvitadhi.pdf?ip=137.132.228.29&id=3021740&acc=ACTIVE%20SERVICE&key=FF6731C4D3E3CFFF%2EBB5EB8D2067C1662%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1523429071_8c3a5ebf30881b77de608f9f9131c1a9)  
 
