@@ -55,6 +55,14 @@ DNN Model and hardware co-design
 
 2. [NEURAghe: Exploiting CPU-FPGA Synergies for Efficient and Flexible CNN Inference Acceleration on Zynq SoCs](https://arxiv.org/pdf/1712.00994.pdf) [TRETS '17]
 
+       - Have Convolutional-Specific Processor(CSP) implemented on PL side
+          -Convolutional Engine
+          -Programmable soft core – manages the execution of complex CNN
+       - 16 bit fixed point 
+       - Used caffe framework
+       - Frame rate – VGG-16 5.5 FPS and ResNet-18 6.6 FPS
+       - Two CSPs can be fit into next generation Ultrascale+ SoCs
+
 
 3. [Going Deeper with Embedded FPGA Platform for Convolutional Neural Network](http://cadlab.cs.ucla.edu/~jaywang/papers/fpga16-cnn.pdf) [FPGA '16]
 
@@ -75,5 +83,18 @@ FPGA
      - Bad floating-point performance – solution DSP and compact low precision data types
 
   “The current ML problems using 32-bit dense matrix multiplication is where GPUs excel. We encourage other developers and researchers to join forces with us to reformulate machine learning problems to take advantage of the strength of FPGAs using smaller bit processing because FPGAs can adapt to shifts toward lower precision,” 
+
+2. Wave Dataflow Processing Engine [A Dataflow Processing Chip for Training Deep Neural Networks](https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.22-Tuesday-Pub/HC29.22.60-NeuralNet1-Pub/HC29.22.610-Dataflow-Deep-Nicol-Wave-07012017.pdf)
+     [Solving the Performance Challenge For Machine Learning Acceleration](https://www.sra.samsung.com/assets/AI-Summmit-2017/09.-Chris-Nicol-Solving-Performance-Challenge-for-ML-acceleration.pdf)
+
+CGRA 
+  
+     – Wave DPU - targeting server based DNN training and inferencing     
+          – very promising numbers for server based system 
+          - Alex Net    inference in the rate of 962,000 fps
+
+ASIC 
+
+     – become obsolete even the superior performance
 
 
