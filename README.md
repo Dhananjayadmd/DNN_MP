@@ -47,7 +47,7 @@ DNN Model and hardware co-design
           - Network pruning
           - Compact network architectures - break large convolution layers into series of small convolutional layers
           
-### CNN on embedded FPGAs
+### CNN on embedded FPGA platforms
 
 1. [Angel-Eye: A Complete Design Flow for Mapping CNN onto Customized Hardware] [ISVLSI '16]
 
