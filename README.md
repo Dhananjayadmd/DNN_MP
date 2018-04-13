@@ -95,6 +95,6 @@ CGRA
 
 ASIC 
 
-     – become obsolete even the superior performance
+     – superior performance but become obsolete  
 
 
