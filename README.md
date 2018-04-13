@@ -51,6 +51,10 @@ DNN Model and hardware co-design
 
 1. [Angel-Eye: A Complete Design Flow for Mapping CNN onto Customized Hardware] [ISVLSI '16]
 
+       - Fixed point implementation 
+       - Quantization startegy - the best radix position of the fixed point data in each layer is chosen differently
+       - Runtime configurable hardware architecture
+       - Use caffe framework
 
 
 2. [NEURAghe: Exploiting CPU-FPGA Synergies for Efficient and Flexible CNN Inference Acceleration on Zynq SoCs](https://arxiv.org/pdf/1712.00994.pdf) [TRETS '17]
