@@ -53,6 +53,7 @@ DNN Model and hardware co-design
 
        - Fixed point implementation 
        - Quantization startegy - the best radix position of the fixed point data in each layer is chosen differently
+       - But fixed point adders and multipliers remain unchanged
        - Runtime configurable hardware architecture
        - Use caffe framework
 
