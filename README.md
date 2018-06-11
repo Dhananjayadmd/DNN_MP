@@ -116,4 +116,26 @@ https://www.xilinx.com/support/answers/59128.html
 
 https://forums.xilinx.com/t5/SDSoC-Environment-and-reVISION/ZCU102-run-time-power-measurement/td-p/863810
 
+#### Understand Chaidnn conv hls code
+
+https://forums.xilinx.com/t5/SDSoC-Environment-and-reVISION/Don-t-understand-how-Convolution-processor-of-ChaiDNN-works/td-p/863797
+
+## How to?
+
+###  create caller graph of given C/C++ project with source files
+
+doxygen configfile
+https://github.com/neovim/neovim/wiki/Generate-callgraphs-with-Doxygen
+
+### connect command window of zcu102 with uart
+
+
+Before connecting USB UART cable to PC
+> ls /dev/ > dev_list_1.txt
+After connecting USB UART cable to PC
+> ls /dev/ | diff --suppress... -y - dev_list_1.txt
+
+Find correct interface ttyUSB0 or ttyUSB1
+
+> sudo screen -L /dev/ttyUSB0 115200
 
