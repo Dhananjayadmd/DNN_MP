@@ -107,3 +107,13 @@ ASIC
 ### ZCU102 driver install
 
 https://www.xilinx.com/support/answers/59128.html
+
+## Forum posts
+
+### Xilinx
+ 
+#### ZCU102 runtime power measurement
+
+https://forums.xilinx.com/t5/SDSoC-Environment-and-reVISION/ZCU102-run-time-power-measurement/td-p/863810
+
+
