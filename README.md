@@ -101,6 +101,10 @@ CGRA
 ASIC 
 
      – superior performance but become obsolete  
+     
+### Batching - Throughput vs Latency
+
+1. [Latency and Throughput Characterization of Convolutional Neural Networks for Mobile Computer Vision](https://arxiv.org/pdf/1803.09492.pdf) [MMSys’18]
 
 ## Technical Reference
 
