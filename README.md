@@ -139,3 +139,8 @@ Find correct interface ttyUSB0 or ttyUSB1
 
 > sudo screen -L /dev/ttyUSB0 115200
 
+### How do I find all files containing specific text on Linux?
+
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+
+https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
