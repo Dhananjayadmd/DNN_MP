@@ -160,3 +160,13 @@ Add this line to ~/.vimrc :
 set tags=./tags,tags;$HOME
 https://stackoverflow.com/questions/11975316/vim-ctags-tag-not-found
 
+
+### Flow of ChaiDNN
+
+Editting software source
+
+Editting hardware source
+
+Copy files to SD Card
+
+Running on board
