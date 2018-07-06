@@ -148,3 +148,15 @@ Find correct interface ttyUSB0 or ttyUSB1
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 
 https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+
+
+
+### How to use ctags with vim?
+
+In folder  > ctags -R .
+https://andrew.stwrt.ca/posts/vim-ctags/
+
+Add this line to ~/.vimrc :
+set tags=./tags,tags;$HOME
+https://stackoverflow.com/questions/11975316/vim-ctags-tag-not-found
+
